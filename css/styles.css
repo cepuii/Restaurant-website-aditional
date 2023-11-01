@@ -130,6 +130,7 @@ margin: 20px;
     text-align: end;
 }
 .gallery-section{
+    margin-bottom: 100px;
     display: flex;
 }
 .gallery-item{
@@ -140,4 +141,23 @@ margin: 20px;
 .gallery-item img{
     max-width: 100%;
     height: auto;
+}
+
+.cheef-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.description{
+    width: 50%;
+    text-align: center;
+}
+
+.description p{
+    margin: 5px 30px;
+    text-align: left;
+}
+
+.chef-wrapper{
+    margin: auto;
 }

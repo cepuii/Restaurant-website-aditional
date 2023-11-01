@@ -129,3 +129,15 @@ margin: 20px;
 .price{
     text-align: end;
 }
+.gallery-section{
+    display: flex;
+}
+.gallery-item{
+    flex: 0 0 25%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-item img{
+    max-width: 100%;
+    height: auto;
+}

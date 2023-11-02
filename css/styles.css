@@ -87,6 +87,10 @@ h1{
     .story-section{
         flex-direction: row;
     }
+
+    .story-text p{
+        text-align: left;
+    }
 }
 .story-title{
     text-align: center;
@@ -97,8 +101,10 @@ h1{
     background-color: #F6F6F6;
     padding: 10px;
 }
+
+
 .story-text p{
-    text-align: left;
+    text-align: center;
     margin-left: 20px;
 }
 .story-image-wrapper{
@@ -149,6 +155,7 @@ margin: 20px;
 .gallery-section{
     margin:auto auto 100px auto;
     display: flex;
+    overflow: hidden;
 }
 .gallery-item{
     flex: 0 0 25%;
@@ -248,7 +255,7 @@ margin: 20px;
 }
 
 .contact-form textarea{
-    width: 500px;
+   min-width: 300px;
 }
 
 .contact-form .btn{

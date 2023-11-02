@@ -5,6 +5,7 @@ body{
 }
 h1{
     font-weight: normal;
+    font-size: 10px;
 }
 .fader{
     position: absolute;
@@ -47,8 +48,9 @@ h1{
     align-items: center;
 }
 .heading-hr{
-    width: 30px;
-    border-top: 2px rgb(193, 38, 38) solid;
+    width: 40px;
+    border: 2px rgb(193, 38, 38) solid;
+    border-bottom: hidden;
     border-radius: 3px;
 }
 .specials-wrapper{
@@ -78,6 +80,7 @@ h1{
     color: grey;
 }
 .story-text{
+    flex: 1;
     background-color: #F6F6F6;
     padding: 10px;
 }
@@ -86,6 +89,7 @@ h1{
     margin-left: 20px;
 }
 .story-image-wrapper{
+    flex: 1;
     width: 100%;
 }
 .story-image{
@@ -130,11 +134,12 @@ margin: 20px;
     text-align: end;
 }
 .gallery-section{
-    margin-bottom: 100px;
+    margin:auto auto 100px auto;
     display: flex;
 }
 .gallery-item{
     flex: 0 0 25%;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -144,12 +149,14 @@ margin: 20px;
 }
 
 .cheef-section{
+    width: 100%;
     display: flex;
     margin-bottom: 100px;
 }
 
 .description{
-    width: 50%;
+    width: 100%;
+    flex: 1;
     text-align: center;
 }
 
@@ -159,5 +166,79 @@ margin: 20px;
 }
 
 .chef-wrapper{
+    width: 100%;
+    flex: 1;
     margin: auto;
+}
+
+.contact-section{
+    background-color: #333333;
+}
+
+.contact-section h3{
+    text-align: center;
+    color: #aaaaaa;
+}
+
+.contacts-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contacts-item{
+    margin: 30px;
+}
+.contacts-item p{
+    color: #6c6c6c;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-form input, textarea{
+    margin: 10px;
+    width: 244px;
+    background-color: #5C5C5C;
+    color: #757575;
+    border: none;
+    padding: 5px;
+}
+
+.contact-form textarea{
+    width: 500px;
+}
+
+.contact-form .btn{
+    border: 2px #777777 solid;
+    color: #777777;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.footer-content{
+    background-color: #262626;
+    padding: 50px;
+    text-align: center;
+    color: #656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-links{
+    margin-left: 80px;
+}
+
+.footer-links a{
+    margin: 10px;
+    text-decoration: none;
+    color: #7e7e7e;
 }
